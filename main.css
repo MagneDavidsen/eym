@@ -1,0 +1,31 @@
+body {
+  background: url('web.jpg') fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+iframe {
+  display: block;
+}
+
+@media (min-width : 320px) {
+  div.menu {
+    font-size: 2em;
+  }
+}
+@media (min-width : 640px) {
+  div.menu {
+    font-size: 3em;
+  }
+}
+@media (min-width : 1024px) {
+  div.menu {
+    font-size: 4em;
+  }
+}
